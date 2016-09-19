@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01740A741D8FB828003DFD6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01740A731D8FB828003DFD6C /* main.m */; };
+		01740A771D8FB828003DFD6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01740A761D8FB828003DFD6C /* AppDelegate.m */; };
+		01740A7A1D8FB828003DFD6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01740A791D8FB828003DFD6C /* ViewController.m */; };
+		01740A7D1D8FB828003DFD6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01740A7B1D8FB828003DFD6C /* Main.storyboard */; };
+		01740A7F1D8FB828003DFD6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01740A7E1D8FB828003DFD6C /* Assets.xcassets */; };
+		01740A821D8FB828003DFD6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01740A801D8FB828003DFD6C /* LaunchScreen.storyboard */; };
+		01740A8D1D8FB828003DFD6C /* HollowoutDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01740A8C1D8FB828003DFD6C /* HollowoutDemoTests.m */; };
+		01740A981D8FB828003DFD6C /* HollowoutDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01740A971D8FB828003DFD6C /* HollowoutDemoUITests.m */; };
+		01740AA71D8FB853003DFD6C /* HollowoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01740AA61D8FB853003DFD6C /* HollowoutView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01740A891D8FB828003DFD6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01740A671D8FB828003DFD6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01740A6E1D8FB828003DFD6C;
+			remoteInfo = HollowoutDemo;
+		};
+		01740A941D8FB828003DFD6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01740A671D8FB828003DFD6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01740A6E1D8FB828003DFD6C;
+			remoteInfo = HollowoutDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01740A6F1D8FB828003DFD6C /* HollowoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HollowoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01740A731D8FB828003DFD6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01740A751D8FB828003DFD6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01740A761D8FB828003DFD6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01740A781D8FB828003DFD6C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		01740A791D8FB828003DFD6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		01740A7C1D8FB828003DFD6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01740A7E1D8FB828003DFD6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01740A811D8FB828003DFD6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01740A831D8FB828003DFD6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01740A881D8FB828003DFD6C /* HollowoutDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HollowoutDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01740A8C1D8FB828003DFD6C /* HollowoutDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HollowoutDemoTests.m; sourceTree = "<group>"; };
+		01740A8E1D8FB828003DFD6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01740A931D8FB828003DFD6C /* HollowoutDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HollowoutDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01740A971D8FB828003DFD6C /* HollowoutDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HollowoutDemoUITests.m; sourceTree = "<group>"; };
+		01740A991D8FB828003DFD6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01740AA51D8FB853003DFD6C /* HollowoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HollowoutView.h; sourceTree = "<group>"; };
+		01740AA61D8FB853003DFD6C /* HollowoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HollowoutView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01740A6C1D8FB828003DFD6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01740A851D8FB828003DFD6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01740A901D8FB828003DFD6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01740A661D8FB828003DFD6C = {
+			isa = PBXGroup;
+			children = (
+				01740A711D8FB828003DFD6C /* HollowoutDemo */,
+				01740A8B1D8FB828003DFD6C /* HollowoutDemoTests */,
+				01740A961D8FB828003DFD6C /* HollowoutDemoUITests */,
+				01740A701D8FB828003DFD6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01740A701D8FB828003DFD6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01740A6F1D8FB828003DFD6C /* HollowoutDemo.app */,
+				01740A881D8FB828003DFD6C /* HollowoutDemoTests.xctest */,
+				01740A931D8FB828003DFD6C /* HollowoutDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01740A711D8FB828003DFD6C /* HollowoutDemo */ = {
+			isa = PBXGroup;
+			children = (
+				01740A751D8FB828003DFD6C /* AppDelegate.h */,
+				01740A761D8FB828003DFD6C /* AppDelegate.m */,
+				01740A781D8FB828003DFD6C /* ViewController.h */,
+				01740A791D8FB828003DFD6C /* ViewController.m */,
+				01740AA51D8FB853003DFD6C /* HollowoutView.h */,
+				01740AA61D8FB853003DFD6C /* HollowoutView.m */,
+				01740A7B1D8FB828003DFD6C /* Main.storyboard */,
+				01740A7E1D8FB828003DFD6C /* Assets.xcassets */,
+				01740A801D8FB828003DFD6C /* LaunchScreen.storyboard */,
+				01740A831D8FB828003DFD6C /* Info.plist */,
+				01740A721D8FB828003DFD6C /* Supporting Files */,
+			);
+			path = HollowoutDemo;
+			sourceTree = "<group>";
+		};
+		01740A721D8FB828003DFD6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01740A731D8FB828003DFD6C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01740A8B1D8FB828003DFD6C /* HollowoutDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				01740A8C1D8FB828003DFD6C /* HollowoutDemoTests.m */,
+				01740A8E1D8FB828003DFD6C /* Info.plist */,
+			);
+			path = HollowoutDemoTests;
+			sourceTree = "<group>";
+		};
+		01740A961D8FB828003DFD6C /* HollowoutDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01740A971D8FB828003DFD6C /* HollowoutDemoUITests.m */,
+				01740A991D8FB828003DFD6C /* Info.plist */,
+			);
+			path = HollowoutDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01740A6E1D8FB828003DFD6C /* HollowoutDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01740A9C1D8FB828003DFD6C /* Build configuration list for PBXNativeTarget "HollowoutDemo" */;
+			buildPhases = (
+				01740A6B1D8FB828003DFD6C /* Sources */,
+				01740A6C1D8FB828003DFD6C /* Frameworks */,
+				01740A6D1D8FB828003DFD6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HollowoutDemo;
+			productName = HollowoutDemo;
+			productReference = 01740A6F1D8FB828003DFD6C /* HollowoutDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01740A871D8FB828003DFD6C /* HollowoutDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01740A9F1D8FB828003DFD6C /* Build configuration list for PBXNativeTarget "HollowoutDemoTests" */;
+			buildPhases = (
+				01740A841D8FB828003DFD6C /* Sources */,
+				01740A851D8FB828003DFD6C /* Frameworks */,
+				01740A861D8FB828003DFD6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01740A8A1D8FB828003DFD6C /* PBXTargetDependency */,
+			);
+			name = HollowoutDemoTests;
+			productName = HollowoutDemoTests;
+			productReference = 01740A881D8FB828003DFD6C /* HollowoutDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01740A921D8FB828003DFD6C /* HollowoutDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01740AA21D8FB828003DFD6C /* Build configuration list for PBXNativeTarget "HollowoutDemoUITests" */;
+			buildPhases = (
+				01740A8F1D8FB828003DFD6C /* Sources */,
+				01740A901D8FB828003DFD6C /* Frameworks */,
+				01740A911D8FB828003DFD6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01740A951D8FB828003DFD6C /* PBXTargetDependency */,
+			);
+			name = HollowoutDemoUITests;
+			productName = HollowoutDemoUITests;
+			productReference = 01740A931D8FB828003DFD6C /* HollowoutDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01740A671D8FB828003DFD6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = liuwei;
+				TargetAttributes = {
+					01740A6E1D8FB828003DFD6C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					01740A871D8FB828003DFD6C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 48PGL8BWBS;
+						TestTargetID = 01740A6E1D8FB828003DFD6C;
+					};
+					01740A921D8FB828003DFD6C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 48PGL8BWBS;
+						TestTargetID = 01740A6E1D8FB828003DFD6C;
+					};
+				};
+			};
+			buildConfigurationList = 01740A6A1D8FB828003DFD6C /* Build configuration list for PBXProject "HollowoutDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01740A661D8FB828003DFD6C;
+			productRefGroup = 01740A701D8FB828003DFD6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01740A6E1D8FB828003DFD6C /* HollowoutDemo */,
+				01740A871D8FB828003DFD6C /* HollowoutDemoTests */,
+				01740A921D8FB828003DFD6C /* HollowoutDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01740A6D1D8FB828003DFD6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01740A821D8FB828003DFD6C /* LaunchScreen.storyboard in Resources */,
+				01740A7F1D8FB828003DFD6C /* Assets.xcassets in Resources */,
+				01740A7D1D8FB828003DFD6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01740A861D8FB828003DFD6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01740A911D8FB828003DFD6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01740A6B1D8FB828003DFD6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01740A7A1D8FB828003DFD6C /* ViewController.m in Sources */,
+				01740A771D8FB828003DFD6C /* AppDelegate.m in Sources */,
+				01740AA71D8FB853003DFD6C /* HollowoutView.m in Sources */,
+				01740A741D8FB828003DFD6C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01740A841D8FB828003DFD6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01740A8D1D8FB828003DFD6C /* HollowoutDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01740A8F1D8FB828003DFD6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01740A981D8FB828003DFD6C /* HollowoutDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01740A8A1D8FB828003DFD6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01740A6E1D8FB828003DFD6C /* HollowoutDemo */;
+			targetProxy = 01740A891D8FB828003DFD6C /* PBXContainerItemProxy */;
+		};
+		01740A951D8FB828003DFD6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01740A6E1D8FB828003DFD6C /* HollowoutDemo */;
+			targetProxy = 01740A941D8FB828003DFD6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01740A7B1D8FB828003DFD6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01740A7C1D8FB828003DFD6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01740A801D8FB828003DFD6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01740A811D8FB828003DFD6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01740A9A1D8FB828003DFD6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01740A9B1D8FB828003DFD6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01740A9D1D8FB828003DFD6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = HollowoutDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lw.HollowoutDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01740A9E1D8FB828003DFD6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = HollowoutDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lw.HollowoutDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		01740AA01D8FB828003DFD6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HollowoutDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lw.HollowoutDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HollowoutDemo.app/HollowoutDemo";
+			};
+			name = Debug;
+		};
+		01740AA11D8FB828003DFD6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HollowoutDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lw.HollowoutDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HollowoutDemo.app/HollowoutDemo";
+			};
+			name = Release;
+		};
+		01740AA31D8FB828003DFD6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HollowoutDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lw.HollowoutDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HollowoutDemo;
+			};
+			name = Debug;
+		};
+		01740AA41D8FB828003DFD6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HollowoutDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lw.HollowoutDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HollowoutDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01740A6A1D8FB828003DFD6C /* Build configuration list for PBXProject "HollowoutDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01740A9A1D8FB828003DFD6C /* Debug */,
+				01740A9B1D8FB828003DFD6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01740A9C1D8FB828003DFD6C /* Build configuration list for PBXNativeTarget "HollowoutDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01740A9D1D8FB828003DFD6C /* Debug */,
+				01740A9E1D8FB828003DFD6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01740A9F1D8FB828003DFD6C /* Build configuration list for PBXNativeTarget "HollowoutDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01740AA01D8FB828003DFD6C /* Debug */,
+				01740AA11D8FB828003DFD6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01740AA21D8FB828003DFD6C /* Build configuration list for PBXNativeTarget "HollowoutDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01740AA31D8FB828003DFD6C /* Debug */,
+				01740AA41D8FB828003DFD6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01740A671D8FB828003DFD6C /* Project object */;
+}
